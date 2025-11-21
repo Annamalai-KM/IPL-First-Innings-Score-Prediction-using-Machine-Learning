@@ -1,0 +1,2 @@
+# IPL-First-Innings-Score-Prediction-using-Machine-Learning
+A machine learning regression model that predicts the first innings score in an IPL cricket match using ball-by-ball data from the 2008–2017 seasons. The project includes data cleaning, feature engineering, encoding categorical match details, training multiple ML models, and evaluating them to forecast the final score based on match progress.
