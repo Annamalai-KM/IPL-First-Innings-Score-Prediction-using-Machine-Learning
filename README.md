@@ -145,56 +145,6 @@ Quick bullet insights:
 
 ---
 
-## 🏗️ Project Architecture & Workflow
-
-ASCII workflow diagram:
-
-       +-----------------+
-       | Raw CSV Data    |
-       | data/*.csv      |
-       +--------+--------+
-                |
-                v
-       +-----------------+
-       | Data Cleaning   |
-       | - filter teams  |
-       | - remove cols   |
-       +--------+--------+
-                |
-                v
-       +-----------------+
-       | Feature Engg.   |
-       | - overs/balls   |
-       | - run_rate      |
-       | - recent form   |
-       +--------+--------+
-                |
-                v
-       +-----------------+
-       | Preprocessing   |
-       | - encode cats   |
-       | - scale numeric |
-       +--------+--------+
-                |
-                v
-       +-----------------+    +------------------+
-       | Model Training  |--->| Model Evaluation |
-       |(LR, RF, GB, SVR)|    | (RMSE, MAE, R²)  |
-       +-----------------+    +------------------+
-                |
-                v
-       +-----------------+
-       | Final Model(s)  |
-       | saved in models/|
-       +-----------------+
-                |
-                v
-       +-----------------+
-       | inference.py    |
-       | CLI / API       |
-       +-----------------+
-
-
 
 ## ⚙️ Installation & Usage
 
